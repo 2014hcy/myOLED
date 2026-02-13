@@ -11,11 +11,11 @@ It's for the beginner. This lib can make you use "Adafruit SSD1306" lib very eas
 
 ## Instructions
 
-**init_OLED()** function is for init the OLED. You can put it in the setup() function.
-    **write(String Text)** function is writing string on the OLED with no new lines.
-  **writeln(String Text)** function is writing string on the OLED with newline.
+**init_OLED()** function is for init the OLED. You can put it in the setup() function.<br>
+    **write(String Text)** function is writing string on the OLED with no new lines.<br>
+  **writeln(String Text)** function is writing string on the OLED with newline.<br>
                **clear()** function is for clear the OLED.
 
 ## At last
 
-I am a Chinese people. My English is not so good. The Chinese New Year is Comming! Wish you all a happy New Year!!!
+I am a Chinese people. My English is not so good. The ***Chinese New Year*** is Comming! Wish you all a happy **New Year**!!!
