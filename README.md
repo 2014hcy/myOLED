@@ -19,3 +19,4 @@ It's for the beginner. This lib can make you use "Adafruit SSD1306" lib very eas
 ## At last
 
 I am a Chinese people. My English is not so good. The ***Chinese New Year*** is Comming! Wish you all a happy **New Year**!!!
+**Thanks for your download!!!**
