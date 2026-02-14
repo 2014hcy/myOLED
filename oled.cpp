@@ -1,7 +1,7 @@
-#include <Arduino.h>
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include "Arduino.h"
+#include "Wire.h"
+#include "Adafruit_GFX.h"
+#include "Adafruit_SSD1306.h"
 #include "./oled.h"
 
 #define SCREEN_WIDTH 128
@@ -10,7 +10,7 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-void init_OLED(I2C_ADDR) {
+void init_OLED(uint8_t I2C_ADDR) {
   Wire.begin();
 
   if(!display.begin(SSD1306_SWITCHCAPVCC, I2C_ADDR)) {
