@@ -20,14 +20,14 @@ void loop() {
   float temperature = dht.readTemperature();
 
   if (isnan(humidity) || isnan(temperature)) {
-    Serial.println("读取失败！请检查接线、电源或传感器状态。");
+    Serial.println("DHT11 error!");
     return;
   }
 
-  Serial.print("温度: ");
+  Serial.print("Temp: ");
   Serial.print(temperature, 1);
   Serial.print("°C | ");
-  Serial.print("湿度: ");
+  Serial.print("Humi: ");
   Serial.print(humidity, 1);
   Serial.println("%");
 
