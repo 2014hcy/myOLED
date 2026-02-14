@@ -12,8 +12,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void init_OLED(uint8_t I2C_ADDR) {
   Wire.begin();
+  Serial.begin(115200);
 
   if(!display.begin(SSD1306_SWITCHCAPVCC, I2C_ADDR)) {
+    Serial.println("OLED failed!");
     for(;;);
   }
   
