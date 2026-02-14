@@ -7,14 +7,13 @@
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-#define I2C_ADDRESS 0x3C
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-void init_OLED() {
+void init_OLED(I2C_ADDR) {
   Wire.begin();
 
-  if(!display.begin(SSD1306_SWITCHCAPVCC, I2C_ADDRESS)) {
+  if(!display.begin(SSD1306_SWITCHCAPVCC, I2C_ADDR)) {
     for(;;);
   }
   
@@ -26,14 +25,17 @@ void init_OLED() {
 
 void write(String Text) {
   display.print(Text);
-  display.display();
 }
 
 void writeln(String Text) {
   display.println(Text);
+}
+
+void displaying() {
   display.display();
 }
 
 void clear() {
   display.clearDisplay();
+  display.setCursor(0, 0);
 }
