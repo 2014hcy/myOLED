@@ -14,7 +14,7 @@ It's for the beginner. This lib can make you use "Adafruit SSD1306" lib very eas
 **init_OLED(uint8_t I2C_ADDR)** function is for init the OLED. "I2C_ADDR" is your OLED I2C address. You can put it in the setup() function.<br>
 **write(String Text)** function is writing string on the OLED with no new lines and no display.<br>
 **writeln(String Text)** function is writing string on the OLED with newline and no display.<br>
-**displaying()** function is for display the Text. It can make display two or more lines smooth.
+**displaying()** function is for display the Text. It can make display two or more lines smooth.<br>
 **clear()** function is for clear the OLED and set Cursor to the "0, 0".
 
 ## At last
