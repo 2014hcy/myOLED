@@ -7,7 +7,7 @@ It's for the beginner. This lib can make you use "Adafruit SSD1306" lib very eas
 1. Install "Adafruit_SSD1306" lib use Arduino IDE or Arduino CLI.
 2. [Install](https://github.com/2014hcy/myOLED/archive/refs/heads/main.zip) myOLED lib.
 3. Extract Zip file to your folder.
-4. Use Arduino and my lib to makes a perfet works!
+4. Use Arduino and my lib to makes a perfect works!
 
 ## Instructions
 
