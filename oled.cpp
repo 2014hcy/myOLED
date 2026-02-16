@@ -33,6 +33,10 @@ void writeln(String Text) {
   display.println(Text);
 }
 
+void drawLine(int x0, int y0, int x1, int y1) {
+  display.drawLine(x0, y0, x1, y1, WHITE);
+}
+
 void displaying() {
   display.display();
 }
