@@ -1,7 +1,7 @@
 #include "oled.h"
 #include "DHT.h"
 
-#define DHTPIN 2
+#define DHTPIN 14
 #define DHTTYPE DHT11
 
 DHT dht(DHTPIN, DHTTYPE);
@@ -35,7 +35,9 @@ void loop() {
 
   write("Temp: ");
   write(String(temperature, 1));
-  writeln(" C");
+  writeln(" C\n");
+
+  drawLine(0, 12, 127, 12);
 
   write("Humi: ");
   write(String(humidity, 1));
