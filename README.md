@@ -17,8 +17,3 @@
 ***drawLine()*** function is for **drawing a line** on the **OLED**.
 ***displaying()*** function is for **displaying the Text**. It can make display **two or more** lines **smooth**.<br>
 ***clear()*** function is for **clear the OLED** and **set Cursor to the "0, 0"**.
-
-## At last
-
-I am a **Chinese people**. My English is **not so good**. **Today** is the ***Chinese New Year Eve***! **Wish** you all a happy **New Year**!!!
-**Thanks for your download!!!**
